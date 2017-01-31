@@ -2,186 +2,60 @@
 // _LAYOUT.SCSS
 // Global Layout styles
 // -------------------------------
-
-* {
-  box-sizing: border-box;
+nav > a:hover{
+  text-decoration: none;
 }
-
-html,
-body {
-  height: 100%;
-  overflow: hidden;
+.stretch-height{
+  height:  100vh;
 }
-.page {
-  height: 100%;
-  background-color: $brown;
+nav > a:hover{
+  text-decoration: none;
 }
-.content {
-  // essential
-  height: 200%; // make higher or you'll see background when rotated
-  transform-origin: top left;
-  transition: transform .7s $snap;
-  
-  // styling
-  background-color: $whitey;
+.menu{
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #EE9C5D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all .5s;
 }
-.content_inner {
-  // essential
-  height: 50%; // compensate for higher .content
-  overflow-y: auto; // set expected overflow
-  
-  // styling
-  padding: 50px 20%;
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #E3EAE3; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
-
-/* basically all styling from now on */
-.menu_toggle {
-  z-index: 900;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: block;
-  cursor: pointer;
-  width: 100px;
-  height: 80px;
-  background-color: $red;
-  border-bottom-right-radius: 100%;
-  
-  &:active {
-    i {
-      opacity: 0.8
-    }
-  }  
-  i {
-    color: $whitey;
-  }
-  .menu_open,
-  .menu_close {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -15px;
-    margin-left: -12px;
-    transition: transform .7s $snap;
-  }
-  .menu_open {
-    transform-origin: -100px -100px;
-  }
-  .menu_close {
-    transform: rotate(20deg);
-    transform-origin: -100px -160px;
-  }
-}
-.menu_items {
-  position: fixed;
-  bottom: 0;
-  left: 50px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  
-  li {
-    height: 60px;
-    margin-bottom: 30px;
-    transform: translateX(-300px);
-    transition: transform .7s 0s $snap;
-    
-    &:nth-child(2){
-      margin-left: 40px;
-    }
-    &:nth-child(3){
-      margin-left: 80px;
-    }
-  }
-  a {
-    display: block;
+.sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: darken($whitey, 30%);
-    transition: color .2s;
-    
-    .icon {
-      position: relative;
-      display: inline-block;
-      margin-right: 25px;
-      color: $whitey;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
 
-      &:after {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        content: '';
-        display: block;
-        width: 60px;
-        height: 60px;
-        margin-left: -33px;
-        margin-top: -32px;
-        border-radius: 100%;
-        border: 2px solid $whitey;
-        transition: border-color .2s;
-      }
-    }
-    
-    &:hover {
-      color: $whitey;
-      .icon {
-        &:after {
-          border-color: $red;
-        }
-      }
-    }
-    &:active {
-      .icon {
-        color: $red;
-      }
-    }
-  }
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #EE9C5D;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#root {
+    transition: all .5s;
 }
 
 
-/* Let's open up the menu */
-.shazam {
-  .content {
-    transform: rotate(-30deg);
-  }
-  
-  // this will show hidden content overflow when rotated,
-  // but will result in a jump, if you've already scrolled down the content
-  // plus, you will lose your current reading position
-  // fixable with JS, not gonna bother
-  
-  /*.content_inner {
-    height: 100%;
-  }*/
-  
-  .menu_open {
-    transform: rotate(-20deg);
-  }
-  .menu_close {
-    transform: rotate(0);
-  }
-  
-  .menu_items {
-    li {
-      transform: translateX(0);
-      transition: transform .35s .45s $bounce;
-    
-      &:nth-child(2){
-        transition-delay: .47s;
-      }
-      &:nth-child(3){
-        transition-delay: .48s;
-      }
-    }
-  }
-}
 
-// misc
-h1 {
-  padding-bottom: 15px;
-  border-bottom: 1px solid #ddd;
-}
-body {
-  color: $brown;
-}

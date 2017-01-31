@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Wordworms extends Component{
+class Projects extends Component{
 	render(){
 		return(
 			<div>
@@ -13,4 +13,4 @@ class Wordworms extends Component{
 	}
 }
 
-export default Wordworms
+export default Projects;

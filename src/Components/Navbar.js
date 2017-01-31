@@ -1,45 +1,34 @@
 import React, { Component } from 'react';
-import $ from 'jquery';
-
-
+import {Link} from 'react-router';
 
 class Navbar extends Component{
+	openNav(){
+		document.getElementById("mySideNav").style.width = "250px";
+	    document.getElementById("root").style.marginLeft = "250px";
+	    document.getElementById("root").style.marginRight = "-250px";
+    }
+    closeNav() {
+	    document.getElementById("mySideNav").style.width = "0";
+	    document.getElementById("root").style.marginLeft = "0";
+	    document.getElementById("root").style.marginRight = "0";
+    }
+		
 	render(){
 		return(
-			<div className="page">
-				<span className="menu_toggle">
-					<i className="menu_open fa fa-bars fa-lg"></i>
-					<i className="menu_close fa fa-times fa-lg"></i>
-			  	</span>
-			    <ul className="menu_items">
-					<li><a href="#"><i className="icon fa fa-signal fa-2x"></i> Moar</a></li>
-					<li><a href="#"><i className="icon fa fa-coffee fa-2x"></i> Coffee</a></li>
-					<li><a href="#"><i className="icon fa fa-heart fa-2x"></i> Please</a></li>
-				</ul>
-				<main className="content">
-					<div className="content_inner">
-						<h1>The mysterious red button of doom</h1>
-						<p>Do <strong>not</strong> push that big, red button in the corner. People will die. You have been warned. Do&hellip; not do it.</p>
-					
-						<p>First Paragraph</p>
-				  
-						<p>Second Paragraph</p>
-				  
-						<p>Third Paragraph</p>
-					</div>
-			  	</main>
-			</div>
+
+            <div className="col-sm-3">
+                <a className="menu" onClick={this.openNav}>Menu</a>
+                <nav className="sideNavMenu sidenav navbar navbar-default stretch-height" id="mySideNav">
+                    <a onClick={this.closeNav} className="closebtn">&times;</a>
+                    <Link to="/"> Home </Link>
+                    <Link to="aboutme"> About me </Link>
+                    <Link to="projects"> Projects </Link> 
+                    <img src={require('./BookWorm.png')} />                   
+                </nav>
+            </div>
+			
 		)
 	}
 }
-
-var $page = $('.page');
-
-$('.menu_toggle').on('click', function(){
-	$page.toggleClass('shazam');
-});
-$('.content').on('click', function(){
-	$page.removeClass('shazam');
-});
 
 export default Navbar;

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Wordworms extends Component{
+class Aboutme extends Component{
 	render(){
 		return(
 			<div>
-			You are at Wordworms
+			You are at AboutMe
 			</div>
 		);
 	}
 }
 
-export default Wordworms
+export default Aboutme;
