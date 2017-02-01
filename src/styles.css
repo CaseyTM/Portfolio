@@ -75,3 +75,36 @@ nav > a:hover {
 #root {
   transition: all .5s;
 }
+
+/* line 6, ../compass/sass/views/_main.scss */
+body:hover {
+  background: #f8f8f8;
+  animation: myFirst 1s;
+  -moz-animation: myfirst 1s infinite;
+  /* Firefox */
+  -webkit-animation: myfirst 1s infinite;
+  /* Safari and Chrome */
+}
+
+@-moz-keyframes myfirst /* Firefox */ {
+  0% {
+    background: #b0b0b0;
+  }
+  50% {
+    background: #f8f8f8;
+  }
+  100% {
+    background: #b0b0b0;
+  }
+}
+@-webkit-keyframes myfirst /* Safari and Chrome */ {
+  0% {
+    background: #b0b0b0;
+  }
+  50% {
+    background: #f8f8f8;
+  }
+  100% {
+    background: #b0b0b0;
+  }
+}
