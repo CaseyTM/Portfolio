@@ -24,3 +24,26 @@ body:hover{
 	50%  {background:#f8f8f8;}
 	100%   {background:#b0b0b0;}
 	}
+.test{
+	color:#f8f8f8;
+	animation:mySecond 1.5s;
+	-moz-animation:mySecond 1.5s infinite; /* Firefox */
+	-webkit-animation:mySecond 1.5s infinite; /* Safari and Chrome */
+	}
+
+
+	  @-moz-keyframes mySecond /* Firefox */
+	{
+	0%   {color:#228b22;}
+	50%  {color:#0000ff}
+	100%   {color:#228b22;}
+	}
+
+	    @-webkit-keyframes mySecond /* Safari and Chrome */
+	{
+	0%   {color:#228b22;}
+	50%  {color:#0000ff}
+	100%   {color:#228b22;}
+	}
+
+
