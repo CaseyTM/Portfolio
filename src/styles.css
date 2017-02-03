@@ -76,6 +76,318 @@ nav > a:hover {
   transition: all .5s;
 }
 
+/* line 10, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 13, ../compass/sass/layout/_header.scss */
+.stretch-height {
+  height: 100vh;
+}
+
+/* line 16, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 19, ../compass/sass/layout/_header.scss */
+.menu {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #EE9C5D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+
+/* line 27, ../compass/sass/layout/_header.scss */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #E3EAE3;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* line 39, ../compass/sass/layout/_header.scss */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+/* line 49, ../compass/sass/layout/_header.scss */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #EE9C5D;
+}
+
+/* Position and style the close button (top right corner) */
+/* line 54, ../compass/sass/layout/_header.scss */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* line 61, ../compass/sass/layout/_header.scss */
+#root {
+  transition: all .5s;
+}
+
+/* line 71, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 74, ../compass/sass/layout/_header.scss */
+.stretch-height {
+  height: 100vh;
+}
+
+/* line 77, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 80, ../compass/sass/layout/_header.scss */
+.menu {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #EE9C5D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+
+/* line 88, ../compass/sass/layout/_header.scss */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #E3EAE3;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* line 100, ../compass/sass/layout/_header.scss */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+/* line 110, ../compass/sass/layout/_header.scss */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #EE9C5D;
+}
+
+/* Position and style the close button (top right corner) */
+/* line 115, ../compass/sass/layout/_header.scss */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* line 122, ../compass/sass/layout/_header.scss */
+#root {
+  transition: all .5s;
+}
+
+/* line 132, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 135, ../compass/sass/layout/_header.scss */
+.stretch-height {
+  height: 100vh;
+}
+
+/* line 138, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 141, ../compass/sass/layout/_header.scss */
+.menu {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #EE9C5D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+
+/* line 149, ../compass/sass/layout/_header.scss */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #E3EAE3;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* line 161, ../compass/sass/layout/_header.scss */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+/* line 171, ../compass/sass/layout/_header.scss */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #EE9C5D;
+}
+
+/* Position and style the close button (top right corner) */
+/* line 176, ../compass/sass/layout/_header.scss */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* line 183, ../compass/sass/layout/_header.scss */
+#root {
+  transition: all .5s;
+}
+
+/* line 193, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 196, ../compass/sass/layout/_header.scss */
+.stretch-height {
+  height: 100vh;
+}
+
+/* line 199, ../compass/sass/layout/_header.scss */
+nav > a:hover {
+  text-decoration: none;
+}
+
+/* line 202, ../compass/sass/layout/_header.scss */
+.menu {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #EE9C5D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all .5s;
+}
+
+/* line 210, ../compass/sass/layout/_header.scss */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #E3EAE3;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* line 222, ../compass/sass/layout/_header.scss */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+/* line 232, ../compass/sass/layout/_header.scss */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #EE9C5D;
+}
+
+/* Position and style the close button (top right corner) */
+/* line 237, ../compass/sass/layout/_header.scss */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* line 244, ../compass/sass/layout/_header.scss */
+#root {
+  transition: all .5s;
+}
+
 /* line 6, ../compass/sass/views/_main.scss */
 body:hover {
   background: #f8f8f8;
