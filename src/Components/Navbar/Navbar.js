@@ -21,8 +21,9 @@ class Navbar extends Component{
                 <nav className="sideNavMenu sidenav navbar navbar-default stretch-height" id="mySideNav">
                     <a onClick={this.closeNav} className="closebtn">&times;</a>
                     <Link to="/"> Home </Link>
-                    <Link to="aboutme"> About me </Link>
-                    <Link to="projects"> Projects </Link> 
+                    <Link to="about"> About </Link>
+                    <Link to="portfolio"> portfolio </Link>
+                    <Link to="skills"> skills </Link> 
                     <img src={require('../ssh.svg')} />                   
                 </nav>
             </div>

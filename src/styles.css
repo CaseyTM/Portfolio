@@ -77,16 +77,34 @@ nav > a:hover {
 }
 
 /* line 6, ../compass/sass/views/_skills.scss */
-.each-icon img {
-  height: 25px;
-  width: 25px;
+.each-icon {
+  width: 8.333333333333%;
+  /* border: 1px solid blue; */
+  float: right;
 }
 
-/* line 13, ../compass/sass/views/_skills.scss */
+/* line 12, ../compass/sass/views/_skills.scss */
+.app {
+  /* border: 1px solid red; */
+}
+
+/* line 15, ../compass/sass/views/_skills.scss */
 .icon-wrapper {
-  border: 1px solid black;
-  width: 50%;
-  float: left;
+  /* border:1px solid black; */
+  width: 100%;
+  float: right;
+}
+
+/* line 20, ../compass/sass/views/_skills.scss */
+.icon-bar {
+  text-align: center;
+}
+
+/* line 23, ../compass/sass/views/_skills.scss */
+.skills-main {
+  height: 50px;
+  width: 100%;
+  background: blue;
 }
 
 /* line 6, ../compass/sass/views/_main.scss */

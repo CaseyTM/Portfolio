@@ -3,15 +3,25 @@
 // Skills View Styles
 // -------------------------------
 
-.each-icon img{
-	height: 25px;
-	width: 25px;
+.each-icon{
+	
+	width: 8.333333333333%;
+	/* border: 1px solid blue; */
+	float: right;
 }
 .app{
-	
+	/* border: 1px solid red; */
 }
 .icon-wrapper{
-	border:1px solid black;
-	width: 50%;
-	float: left;
+	/* border:1px solid black; */
+	width: 100%;
+	float: right;
+}
+.icon-bar{
+	text-align: center;
+}
+.skills-main{
+	height: 50px;
+	width: 100%;
+	background: blue;
 }
