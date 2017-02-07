@@ -23,7 +23,7 @@ class Navbar extends Component{
                     <Link to="/"> Home </Link>
                     <Link to="aboutme"> About me </Link>
                     <Link to="projects"> Projects </Link> 
-                    <img src={require('./BookWorm.png')} />                   
+                    <img src={require('../ssh.svg')} />                   
                 </nav>
             </div>
 			

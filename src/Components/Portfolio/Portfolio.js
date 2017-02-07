@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Projects extends Component{
+class Portfolio extends Component{
 	render(){
 		return(
 			<div>
@@ -9,8 +9,8 @@ class Projects extends Component{
 				this is the height {this.props.params.height}
 			</div>
 
-		);
+		)
 	}
 }
 
-export default Projects;
+export default Portfolio;

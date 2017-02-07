@@ -76,6 +76,19 @@ nav > a:hover {
   transition: all .5s;
 }
 
+/* line 6, ../compass/sass/views/_skills.scss */
+.each-icon img {
+  height: 25px;
+  width: 25px;
+}
+
+/* line 13, ../compass/sass/views/_skills.scss */
+.icon-wrapper {
+  border: 1px solid black;
+  width: 50%;
+  float: left;
+}
+
 /* line 6, ../compass/sass/views/_main.scss */
 body:hover {
   background: #f8f8f8;
